@@ -12,6 +12,9 @@ https://github.com/c4pt000/chromiumQR-desktop/blob/main/qrcode_generator_bubble.
 * rebase of current chromium src to make the qr code button as part of the menu bar
 https://github.com/c4pt000/chromiumQR-desktop/releases
 
+ot-export as raw html for embedding into html?-> secondary button or right click for download button
+
+
 * chromiumQR-desktop<p align="center"><img src="https://raw.githubusercontent.com/c4pt000/chromiumQR-desktop/main/chromiumQR-desktop-browser.png" width="800"></p>
 
 removal of the dinosaur QR center
@@ -20,4 +23,3 @@ removal of the dinosaur QR center
 
 https://github.com/c4pt000/mojo-vison-OT
 
-ot-export as raw html for embedding into html?
