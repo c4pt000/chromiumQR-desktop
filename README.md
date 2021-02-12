@@ -13,6 +13,10 @@ https://github.com/c4pt000/chromiumQR-desktop/blob/main/qrcode_generator_bubble.
 https://github.com/c4pt000/chromiumQR-desktop/releases
 
 ot-export as raw html for embedding into html?-> secondary button or right click for download button
+to do: open on mouse hover
+to do: mac os build
+to do: win10 build
+to do: remove right click context to open QR code bubble generator
 
 
 * chromiumQR-desktop<p align="center"><img src="https://raw.githubusercontent.com/c4pt000/chromiumQR-desktop/main/chromiumQR-desktop-browser.png" width="800"></p>
