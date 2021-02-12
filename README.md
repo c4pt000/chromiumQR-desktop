@@ -4,6 +4,8 @@
 
 * chromiumQR-desktop<p align="center"><img src="https://raw.githubusercontent.com/c4pt000/chromiumQR-desktop/main/chromiumQR-desktop-browser.png" width="800"></p>
 
+removal of the dinosaur QR center
+
 * chromiumQR-desktop-upper-right<p align="center"><img src="https://raw.githubusercontent.com/c4pt000/chromiumQR-desktop/main/chromiumQR-desktop-default.png" width="800"></p>
 
 
