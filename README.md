@@ -24,6 +24,8 @@ to do: win10 build
 <br>
 to do: remove right click context to open QR code bubble generator
 <br>
+<br>
+<br>
 
 
 * chromiumQR-desktop<p align="center"><img src="https://raw.githubusercontent.com/c4pt000/chromiumQR-desktop/main/chromiumQR-desktop-browser.png" width="800"></p>
