@@ -20,8 +20,6 @@ ot-export as raw html for embedding into html?-> secondary button or right click
 <br>
 to do: open on mouse hover
 <br>
-to do: mac os build
-<br>
 to do: win10 build
 <br>
 to do: remove right click context to open QR code bubble generator
