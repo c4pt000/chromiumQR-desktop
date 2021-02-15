@@ -22,8 +22,6 @@ to do: open on mouse hover
 <br>
 to do: win10 build
 <br>
-to do: remove right click context to open QR code bubble generator
-<br>
 <br>
 <br>
 
