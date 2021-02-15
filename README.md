@@ -7,6 +7,8 @@ changes:
 https://github.com/c4pt000/chromiumQR-desktop/blob/main/qrcode_generator_bubble.cc
 
 -> chrome/browser/ui/views/qrcode_generator/qrcode_generator_bubble.cc
+-> chrome/browser/ui/views/qrcode_generator/qrcode_generator_icon_view.cc
+
 ```
 
 * rebase of current chromium src to make the qr code button as part of the menu bar
