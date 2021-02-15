@@ -5,6 +5,7 @@ git clone https://chromium.googlesource.com/chromium/src
 ```
 changes:
 https://github.com/c4pt000/chromiumQR-desktop/blob/main/qrcode_generator_bubble.cc
+https://github.com/c4pt000/chromiumQR-desktop/blob/main/qrcode_generator_icon_view.cc
 
 -> chrome/browser/ui/views/qrcode_generator/qrcode_generator_bubble.cc
 -> chrome/browser/ui/views/qrcode_generator/qrcode_generator_icon_view.cc
