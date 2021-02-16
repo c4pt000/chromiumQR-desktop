@@ -21,6 +21,7 @@ ot-export as raw html for embedding into html?-> secondary button or right click
 <br>
 to do: open on mouse hover
 <br>
+add right click copy link as QR code export
 <br>
 
 
