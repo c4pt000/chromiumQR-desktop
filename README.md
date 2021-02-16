@@ -21,9 +21,6 @@ ot-export as raw html for embedding into html?-> secondary button or right click
 <br>
 to do: open on mouse hover
 <br>
-to do: win10 build
-<br>
-<br>
 <br>
 
 
