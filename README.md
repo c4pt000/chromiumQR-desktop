@@ -35,3 +35,7 @@ removal of the dinosaur QR center
 
 https://github.com/c4pt000/mojo-vison-OT
 
+just a would be design of a QR code in motion (from a concept design that I made using an ATM screen) can be replaced in chromium for chromium to support QR codes in motion
+see semi working mod at http://radiopool.me/QR that I implemented of actually putting the QR code pin dots physically in motion (not the background picture in motion support but the actual QR code pin dots)
+
+<p align="center"><img src="https://github.com/c4pt000/a-PROTECTED_QR_CODE-QR-code-Encryption-layer-for-QR-codes-in-plainsight-and-machine-vision/releases/download/gif/PIN-protected-for-QR-import-to-phone.gif" width="800"></p>
