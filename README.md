@@ -14,6 +14,7 @@ cd /root/chromium/chromium
 tar -xvf chromium.src.tar
 cd src/
 cp -rf /opt/chrome-QR/qrcode_generator_* chrome/browser/ui/views/qrcode_generator/
+apt-get update
 apt install python3 -y
 
 # build for android apk
