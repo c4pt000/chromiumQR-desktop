@@ -10,6 +10,14 @@ place chromium.src.tar here . https://drive.google.com/file/d/1hep4Vh1D6x2IKXVbY
 
 # 1GB download (place chromium.src.tar in /root/chromium/chromium which is 35GB and untar)
 docker run -it --net host -d -v /root/chromium/chromium:/root/chromium/chromium -v /opt/chromiumQR-desktop:/opt/CHROMEQR c4pt/chrome-qr-source-builder
+cd /root/chromium/chromium
+tar -xvf chromium.src.tar
+cd src/
+cp -rf /opt/chrome-QR/qrcode_generator_* chrome/browser/ui/views/qrcode_generator/
+apt install python3 -y
+
+# build for android apk
+autoninja -C out/Default chrome_public_apk
 
 ```
 
