@@ -18,6 +18,7 @@ apt-get update
 apt install python3 build-essential libprotobuf-dev git lsb-release sudo  -y
 
 # build for android apk
+bash build/install-build-deps-android.sh
 autoninja -C out/Default chrome_public_apk
 
 ```
