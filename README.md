@@ -1,6 +1,10 @@
 # chromiumQR-desktop
 
 
+# gdrive download (google chrome source 35GB src folder)
+```
+https://drive.google.com/file/d/1hep4Vh1D6x2IKXVbY9liMLi0io4CzXPg/view?usp=sharing
+```
 
 git clone https://chromium.googlesource.com/chromium/src
 
