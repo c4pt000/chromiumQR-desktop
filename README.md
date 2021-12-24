@@ -15,7 +15,7 @@ tar -xvf chromium.src.tar
 cd src/
 cp -rf /opt/chrome-QR/qrcode_generator_* chrome/browser/ui/views/qrcode_generator/
 apt-get update
-apt install python3 -y
+apt install python3 build-essential -y
 
 # build for android apk
 autoninja -C out/Default chrome_public_apk
