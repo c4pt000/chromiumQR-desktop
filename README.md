@@ -2,8 +2,15 @@
 
 
 # gdrive download (google chrome source 35GB src folder)
+
 ```
-https://drive.google.com/file/d/1hep4Vh1D6x2IKXVbY9liMLi0io4CzXPg/view?usp=sharing
+mkdir /root/chromium/chromium
+cd /root/chromium/chromium
+place chromium.src.tar here . https://drive.google.com/file/d/1hep4Vh1D6x2IKXVbY9liMLi0io4CzXPg/view?usp=sharing
+
+# 1GB download (place chromium.src.tar in /root/chromium/chromium which is 35GB and untar)
+docker run -it --net host -d -v /root/chromium/chromium:/root/chromium/chromium -v /opt/chromiumQR-desktop:/opt/CHROMEQR c4pt/chrome-qr-source-builder
+
 ```
 
 git clone https://chromium.googlesource.com/chromium/src
