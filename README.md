@@ -19,7 +19,12 @@ apt install python3 build-essential libprotobuf-dev git lsb-release sudo nano -y
 export EDITOR=nano
 
 # build for android apk
+
+gclient sync
+
 bash build/install-build-deps-android.sh
+
+gclient runhooks
 
 gn args out/Default
 
@@ -27,7 +32,6 @@ target_os = "android"
 target_cpu = "arm64"
 use_lld = false
 is_component_build = false
-# See "Figuring out target_cpu" below
 
 
 autoninja -C out/Default chrome_public_apk
