@@ -29,12 +29,12 @@ gclient runhooks
 gn args out/Default
 
 target_os = "android"
-target_cpu = "arm64"
+target_cpu = "x64"
 use_lld = false
-is_component_build = false
+is_component_build = true
 
 
-autoninja -C out/Default chrome_public_apk
+autoninja -C out/Default trichrome_library_apk
 
 ```
 
