@@ -51,7 +51,7 @@ use_lld = false
 is_component_build = true
 
 
-autoninja -C out/Default trichrome_library_apk
+autoninja -C out/Default chrome_public_apk
 
 ```
 
