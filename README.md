@@ -14,8 +14,26 @@ cd /root/chromium/chromium
 tar -xvf chromium.src.tar
 cd src/
 cp -rf /opt/chrome-QR/qrcode_generator_* chrome/browser/ui/views/qrcode_generator/
+
+Ubuntu / Debian 
 apt-get update
 apt install python3 build-essential libprotobuf-dev git lsb-release sudo nano -y
+
+# Fedora 35 from the README.md build instructions
+```
+```
+Instead of running build/install-build-deps.sh , run:
+su -c 'yum install git python bzip2 tar pkgconfig atk-devel alsa-lib-devel \
+bison binutils brlapi-devel bluez-libs-devel bzip2-devel cairo-devel \
+cups-devel dbus-devel dbus-glib-devel expat-devel fontconfig-devel \
+freetype-devel gcc-c++ glib2-devel glibc.i686 gperf glib2-devel \
+gtk3-devel java-1.*.0-openjdk-devel libatomic libcap-devel libffi-devel \
+libgcc.i686 libgnome-keyring-devel libjpeg-devel libstdc++.i686 libX11-devel \
+libXScrnSaver-devel libXtst-devel libxkbcommon-x11-devel ncurses-compat-libs \
+nspr-devel nss-devel pam-devel pango-devel pciutils-devel \
+pulseaudio-libs-devel zlib.i686 httpd mod_ssl php php-cli python-psutil wdiff \
+xorg-x11-server-Xvfb'
+```
 export EDITOR=nano
 
 # build for android apk
