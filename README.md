@@ -46,6 +46,8 @@ export EDITOR=nano
 
 gclient sync
 
+
+ignore using this script to install deps when using fedora or fedora as a docker image
 bash build/install-build-deps-android.sh
 
 gclient runhooks
