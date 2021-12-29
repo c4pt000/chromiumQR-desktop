@@ -3,6 +3,8 @@
 
 # gdrive download (google chrome source 35GB src folder) requires 60~GB+ free space
 
+
+# WIP build instructions confusing enough even for me,
 ```
 mkdir /root/chromium/chromium
 cd /root/chromium/chromium
