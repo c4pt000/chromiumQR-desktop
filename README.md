@@ -11,7 +11,9 @@ cd /root/chromium/chromium
 place chromium.src.tar here . https://drive.google.com/file/d/1hep4Vh1D6x2IKXVbY9liMLi0io4CzXPg/view?usp=sharing
 
 # 1GB download (place chromium.src.tar in /root/chromium/chromium which is 35GB and untar)
+# if you decide to make a docker image with a virtual mount to use ubuntu or debian here otherwise ignore this
 docker run -it --net host -d -v /root/chromium/chromium:/root/chromium/chromium -v /opt/chromiumQR-desktop:/opt/CHROMEQR c4pt/chrome-qr-source-builder
+
 cd /root/chromium/chromium
 tar -xvf chromium.src.tar
 cd src/
