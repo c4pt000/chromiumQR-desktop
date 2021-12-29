@@ -85,10 +85,13 @@ gn args out/Default
 
 * still experimental for final output
 
-target_os = "android"
-target_cpu = "x86"
-use_lld = false
+ target_os = "android"
+target_cpu = "arm64"
+symbol_level = 0
+blink_symbol_level = 0
 is_component_build = true
+incremental_install = false
+
 
 
 autoninja -C out/Default chrome_public_apk
