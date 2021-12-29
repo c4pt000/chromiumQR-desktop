@@ -1,7 +1,7 @@
 # chromiumQR-desktop
 
 
-# gdrive download (google chrome source 35GB src folder)
+# gdrive download (google chrome source 35GB src folder) requires 60~GB+ free space
 
 ```
 mkdir /root/chromium/chromium
@@ -58,7 +58,17 @@ autoninja -C out/Default chrome_public_apk
 git clone https://chromium.googlesource.com/chromium/src
 
 ```
-changes:
+
+requires resizing tmpfs on the fly with the 60gb of free disk space including 35gb of bloated chrome raw source
+can be added to /root/.bashrc with source /root/.bashrc
+
+mount -oremount,size=20G /dev
+ mount -oremount,size=20G tmpfs
+
+the boolean which draws a dino png or svg logo in the QR
+just change render_dino = false 
+
+changes from desktop version not for android version but very similar:
 https://github.com/c4pt000/chromiumQR-desktop/blob/main/qrcode_generator_bubble.cc
 https://github.com/c4pt000/chromiumQR-desktop/blob/main/qrcode_generator_icon_view.cc
 
