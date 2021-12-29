@@ -1,5 +1,9 @@
 # chromiumQR-desktop
 
+# update, I've removed the little bastard out of the share QR code image to match the desktop version
+
+https://drive.google.com/file/d/12YJjWcDCWiM2Bh_VDnwnJPv7oCHuWCo6/view?usp=sharing
+
 ```
 ~/chromium/chromium/src/chrome/browser
 
