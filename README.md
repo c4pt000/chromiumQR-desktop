@@ -1,5 +1,13 @@
 # chromiumQR-desktop
 
+```
+~/chromium/chromium/src/chrome/browser
+
+share/qr_code_generation_request.cc:  request->render_dino = false;
+ui/views/qrcode_generator/qrcode_generator_bubble.cc:  request->render_dino = false;
+ui/views/webauthn/authenticator_qr_sheet_view.cc:    request->render_dino = false;
+```
+
 # reference google developer notes for building android versions
 https://github.com/c4pt000/chromiumQR-desktop/raw/main/Checking%20out%20and%20building%20Chromium%20for%20Android.pdf
 
