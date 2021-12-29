@@ -1,5 +1,7 @@
 # chromiumQR-desktop
 
+# reference google developer notes for building android versions
+https://github.com/c4pt000/chromiumQR-desktop/raw/main/Checking%20out%20and%20building%20Chromium%20for%20Android.pdf
 
 # gdrive download (google chrome source 35GB src folder) requires 60~GB+ free space
 
