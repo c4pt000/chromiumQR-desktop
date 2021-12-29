@@ -15,12 +15,17 @@ docker run -it --net host -d -v /root/chromium/chromium:/root/chromium/chromium 
 cd /root/chromium/chromium
 tar -xvf chromium.src.tar
 cd src/
-cp -rf /opt/chrome-QR/qrcode_generator_* chrome/browser/ui/views/qrcode_generator/
 
+copying over files will break from desktop to android versions (i remember now from looking at the source its just a boolean to disable the dino logo render as false for dino_render = true)
+ignore this will break android versions -> cp -rf /opt/chrome-QR/qrcode_generator_* chrome/browser/ui/views/qrcode_generator/
+
+when using docker ubuntu or debian
 Ubuntu / Debian 
 apt-get update
 apt install python3 build-essential libprotobuf-dev git lsb-release sudo nano -y
 
+
+when using fedora 35 natively or fedora 35 docker
 # Fedora 35 from the README.md build instructions
 
 Instead of running build/install-build-deps.sh , run:
@@ -47,8 +52,11 @@ gclient runhooks
 
 gn args out/Default
 
+
+* still experimental for final output
+
 target_os = "android"
-target_cpu = "x64"
+target_cpu = "x86"
 use_lld = false
 is_component_build = true
 
