@@ -44,7 +44,14 @@ xorg-x11-server-Xvfb'
 
 export EDITOR=nano
 
-# build for android apk
+# build for android apk 
+
+set export PATH to depot_tools folder where it is on the drive in this case as part of chromeQR yours might differ
+provides chrome build tools like gclient and fetch and gn
+
+git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
+
+export PATH=$PATH:/opt/chromeQR/depot_tools
 
 gclient sync
 
