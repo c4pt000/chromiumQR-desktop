@@ -69,8 +69,10 @@ autoninja -C out/Default chrome_public_apk
 
 ```
 
+```
 where the actual 1:1 source code for chromium "src" lives instead of using fetch --nohooks --no-history android
 git clone https://chromium.googlesource.com/chromium/src
+```
 
 ```
 
