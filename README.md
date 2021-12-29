@@ -4,7 +4,7 @@
 # gdrive download (google chrome source 35GB src folder) requires 60~GB+ free space
 
 
-# WIP build instructions confusing enough even for me,
+# WIP build instructions confusing enough even for me, fedora 35 yum packages actually build natively docker image just for reference to use ubuntu or debian
 ```
 mkdir /root/chromium/chromium
 cd /root/chromium/chromium
