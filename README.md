@@ -1,7 +1,7 @@
 # chromiumQR-desktop
 
 # update, I've removed the little bastard out of the share QR code image to match the desktop version
-# semi working proto-type treat as extemely unstable supports embedded youtube videos, does not support a variety of video formats 
+# semi working proto-type treat as extremely unstable supports embedded youtube videos, does not support a variety of video formats 
 # TREAT AS UNSTABLE WIP
 
 https://drive.google.com/file/d/12YJjWcDCWiM2Bh_VDnwnJPv7oCHuWCo6/view?usp=sharing
