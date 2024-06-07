@@ -53,7 +53,11 @@ apt install python3 build-essential libprotobuf-dev git lsb-release sudo nano -y
 when using fedora 35 natively or fedora 35 docker
 # Fedora 35 from the README.md build instructions
 
+```
+
 Instead of running build/install-build-deps.sh , run:
+
+
 su -c 'yum install git python bzip2 tar pkgconfig atk-devel alsa-lib-devel \
 bison binutils brlapi-devel bluez-libs-devel bzip2-devel cairo-devel \
 cups-devel dbus-devel dbus-glib-devel expat-devel fontconfig-devel \
@@ -67,6 +71,7 @@ xorg-x11-server-Xvfb'
 
 export EDITOR=nano
 
+```
 # build for android apk 
 
 set export PATH to depot_tools folder where it is on the drive in this case as part of chromeQR yours might differ
