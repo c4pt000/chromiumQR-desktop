@@ -30,6 +30,7 @@ https://github.com/c4pt000/chromiumQR-desktop/raw/main/Checking%20out%20and%20bu
 
 
 # WIP build instructions confusing enough even for me, fedora 35 yum packages actually build natively docker image just for reference to use ubuntu or debian
+
 ```
 mkdir /root/chromium/chromium
 cd /root/chromium/chromium
@@ -59,7 +60,7 @@ when using fedora 35 natively or fedora 35 docker
 
 Instead of running build/install-build-deps.sh , run:
 
-
+```
 su -c 'yum install git python bzip2 tar pkgconfig atk-devel alsa-lib-devel \
 bison binutils brlapi-devel bluez-libs-devel bzip2-devel cairo-devel \
 cups-devel dbus-devel dbus-glib-devel expat-devel fontconfig-devel \
