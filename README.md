@@ -77,6 +77,7 @@ export EDITOR=nano
 set export PATH to depot_tools folder where it is on the drive in this case as part of chromeQR yours might differ
 provides chrome build tools like gclient and fetch and gn
 
+```
 git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 
 export PATH=$PATH:/opt/chromeQR/depot_tools
@@ -91,6 +92,16 @@ gclient runhooks
 
 gn args out/Default
 
+gn args out/mybuild
+
+add these lines then crtl-X
+
+is_debug = false
+symbol_level = 0
+enable_nacl = false
+blink_symbol_level=0
+v8_symbol_level=0
+```
 
 * still experimental for final output
 
