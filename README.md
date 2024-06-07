@@ -9,7 +9,9 @@ https://drive.google.com/file/d/12YJjWcDCWiM2Bh_VDnwnJPv7oCHuWCo6/view?usp=shari
 ```
 # requires no-sandbox
 
-```chromium-browser --no-sandbox```
+```
+chromium-browser --no-sandbox
+```
 
 ![s1](https://raw.githubusercontent.com/c4pt000/chromiumQR-desktop/main/Screenshot_20211229-042443-122.png)
 
