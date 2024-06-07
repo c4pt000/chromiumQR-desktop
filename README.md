@@ -104,6 +104,11 @@ symbol_level = 0
 enable_nacl = false
 blink_symbol_level=0
 v8_symbol_level=0
+
+
+autoninja -C out/Default chrome
+
+
 ```
 
 * still experimental for final output
