@@ -99,12 +99,15 @@ gn args out/mybuild
 
 add these lines then crtl-X
 
+
 is_debug = false
 symbol_level = 0
 enable_nacl = false
 blink_symbol_level=0
 v8_symbol_level=0
 
+is_component_build = false
+enable_linux_installer = true
 
 autoninja -C out/Default chrome
 
