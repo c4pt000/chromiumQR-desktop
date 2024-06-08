@@ -109,6 +109,7 @@ enable_linux_installer = true
 # build just the binary
 autoninja -C out/Default chrome
 
+or
 
 # build a .deb package
 ninja -C out/Default  "chrome/installer/linux:unstable_deb"
