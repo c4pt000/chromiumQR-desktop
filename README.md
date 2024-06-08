@@ -124,6 +124,7 @@ ninja -C out/Default  "chrome/installer/linux:unstable_deb"
 
 * still experimental for final output
 
+```
  target_os = "android"
 target_cpu = "arm64"
 symbol_level = 0
@@ -134,6 +135,8 @@ incremental_install = false
 
 
 autoninja -C out/Default chrome_public_apk
+
+```
 
 ```
 
