@@ -96,7 +96,7 @@ gclient runhooks
 gn args out/Default
 
 add these lines then crtl-X ::
-        is_component_build = true
+        is_component_build = false
         is_debug = false
         symbol_level = 0
         blink_symbol_level=0
