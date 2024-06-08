@@ -95,16 +95,20 @@ gclient runhooks
 
 gn args out/Default
 
-gn args out/mybuild
+add these lines then crtl-X ::
+        is_component_build = true
+        is_debug = false
+        symbol_level = 0
+        blink_symbol_level=0
+        v8_symbol_level=0
+        enable_linux_installer = true
 
-add these lines then crtl-X
 
-is_component_build = true
-is_debug = false
-symbol_level = 0
-blink_symbol_level=0
-v8_symbol_level=0
-enable_linux_installer = true
+
+
+
+
+THEN see below to build
 
 # build just the binary
 autoninja -C out/Default chrome
