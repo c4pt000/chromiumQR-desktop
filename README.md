@@ -123,6 +123,8 @@ or
 # build a .deb package
 ninja -C out/Default  "chrome/installer/linux:unstable_deb"
 
+./out/Default/chromium-browser-unstable_127.0.6526.0-1_amd64.deb
+
 
 
 ```
