@@ -9,7 +9,7 @@ https://drive.google.com/file/d/12YJjWcDCWiM2Bh_VDnwnJPv7oCHuWCo6/view?usp=shari
 ```
 yum update -y
 yum groupinstall "C Development Tools and Libraries" -y
-yum install cmake devscripts dpkg alien -y
+yum install cmake devscripts dpkg alien fakeroot -y
 ``` 
 
 # requires no-sandbox
