@@ -101,12 +101,16 @@ gclient runhooks
 gn args out/Default
 
 add these lines then crtl-X ::
-        is_component_build = false
-        is_debug = false
-        symbol_level = 0
-        blink_symbol_level=0
-        v8_symbol_level=0
-        enable_linux_installer = true
+
+    is_component_build = false
+    is_debug = false
+    symbol_level = 0
+    blink_symbol_level=0
+    v8_symbol_level=0
+    enable_linux_installer = true
+    is_official_build = true
+    #is_chrome_branded = true
+    chrome_pgo_phase = 0
 
 
 
