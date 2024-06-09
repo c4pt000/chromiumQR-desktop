@@ -6,6 +6,11 @@
 
 https://drive.google.com/file/d/12YJjWcDCWiM2Bh_VDnwnJPv7oCHuWCo6/view?usp=sharing
 
+```
+yum update -y
+yum groupinstall "C Development Tools and Libraries" -y
+yum install cmake devscripts dpkg alien -y
+``` 
 
 # requires no-sandbox
 
