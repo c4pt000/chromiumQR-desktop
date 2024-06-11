@@ -176,4 +176,8 @@ https://github.com/c4pt000/chromiumQR-desktop/blob/main/qrcode_generator_icon_vi
 -> chrome/browser/ui/views/qrcode_generator/qrcode_generator_icon_view.cc
 
 
+# 06-11-2024 the render_dino = true boolean has been removed in the recent version to render the dinosaur in the middle of the QR code 
+# instead to remove the dinosaur it has to be disable with the bitmap generator 
+
+# https://github.com/c4pt000/chromiumQR-desktop/releases/download/06-08-2024/bitmap_generator.cc
 
